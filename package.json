@@ -1,0 +1,23 @@
+{
+  "name": "@textshq/eslint-config",
+  "version": "1.0.4",
+  "main": "index.yml",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3",
+    "babel-eslint": "^10",
+    "eslint-config-airbnb-typescript": "^8",
+    "eslint-config-react-app": "^5",
+    "eslint-plugin-flowtype": "^5",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4",
+    "typescript": ">= 3"
+  }
+}
