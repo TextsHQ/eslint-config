@@ -2,10 +2,7 @@
   "name": "@textshq/eslint-config",
   "version": "1.0.4",
   "main": "index.yml",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "dependencies": {
+    "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4",
     "babel-eslint": "^10",
     "eslint-config-airbnb-typescript": "^10",
