@@ -5,6 +5,7 @@ plugins:
   - react
 rules:
   semi: [error, never]
+  '@typescript-eslint/no-inferrable-types': error
   '@typescript-eslint/semi': [error, never]
   '@typescript-eslint/naming-convention': off
   arrow-parens: [error, as-needed]
@@ -43,3 +44,8 @@ rules:
   react/jsx-props-no-spreading: off
   react/no-array-index-key: off
   react/prop-types: off
+  react/react-in-jsx-scope: off
+  '@typescript-eslint/member-delimiter-style': [error, {
+    multiline: { delimiter: none },
+    singleline: { delimiter: comma }
+  }]
