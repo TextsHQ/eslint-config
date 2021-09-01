@@ -8,6 +8,11 @@ rules:
   semi: [error, never]
   '@typescript-eslint/no-inferrable-types': error
   '@typescript-eslint/semi': [error, never]
+  '@typescript-eslint/member-delimiter-style': [error, {
+    multiline: { delimiter: none },
+    singleline: { delimiter: comma }
+  }]
+  '@typescript-eslint/prefer-ts-expect-error': error
   '@typescript-eslint/naming-convention': off
   arrow-parens: [error, as-needed]
   no-param-reassign: warn
@@ -46,7 +51,3 @@ rules:
   react/no-array-index-key: off
   react/prop-types: off
   react/react-in-jsx-scope: off
-  '@typescript-eslint/member-delimiter-style': [error, {
-    multiline: { delimiter: none },
-    singleline: { delimiter: comma }
-  }]
