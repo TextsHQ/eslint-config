@@ -13,6 +13,10 @@ rules:
     singleline: { delimiter: comma }
   }]
   '@typescript-eslint/prefer-ts-expect-error': error
+  '@typescript-eslint/type-annotation-spacing': [error, {
+    before: false,
+    after: true,
+  }]
   '@typescript-eslint/naming-convention': off
   arrow-parens: [error, as-needed]
   no-param-reassign: warn
