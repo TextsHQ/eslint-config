@@ -13,6 +13,7 @@ rules:
     singleline: { delimiter: comma }
   }]
   '@typescript-eslint/prefer-ts-expect-error': error
+  '@typescript-eslint/type-annotation-spacing': error
   '@typescript-eslint/naming-convention': off
   arrow-parens: [error, as-needed]
   no-param-reassign: warn
@@ -31,6 +32,7 @@ rules:
   no-bitwise: off
   no-console: off
   no-continue: off
+  no-restricted-syntax: off
   no-new: off
   no-plusplus: off
   no-underscore-dangle: off
