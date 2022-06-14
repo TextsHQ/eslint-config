@@ -6,6 +6,7 @@ extends:
 
 rules:
   semi: [error, never]
+  no-constant-binary-expression: error
   '@typescript-eslint/no-inferrable-types': error
   '@typescript-eslint/semi': [error, never]
   '@typescript-eslint/member-delimiter-style': [error, {
