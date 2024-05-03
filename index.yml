@@ -1,6 +1,4 @@
 extends:
-  - airbnb
-  - airbnb-typescript
   - react-app
 plugins:
   - react
