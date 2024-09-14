@@ -1,7 +1,7 @@
 {
   "include": [
-    "*.{mjs,ts,js}",
-    "lib/**.{mjs,ts,js}",
+    "lib/*.mjs",
+    "*.mjs",
     "*.d.ts"
   ],
   "compilerOptions": {
