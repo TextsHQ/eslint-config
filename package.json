@@ -3,7 +3,8 @@
   "version": "3.0.0",
   "type": "module",
   "exports": {
-    ".": "./configs.mjs"
+    ".": "./configs.mjs",
+    "./style": "./style.mjs"
   },
   "dependencies": {
     "@eslint/compat": "^1.1.1",
