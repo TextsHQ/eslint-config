@@ -25,3 +25,13 @@ declare module 'eslint-plugin-react-hooks' {
   }
   export default plugin
 }
+
+// Non-exhaustive.
+declare module 'eslint-plugin-import' {
+  import type { Linter } from 'eslint'
+
+  export const flatConfigs: {
+    typescript: Linter.Config
+    recommended: Linter.Config
+  }
+}
