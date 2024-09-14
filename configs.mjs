@@ -10,7 +10,8 @@ const base = [
   ...stylisticConfig,
   ...basicConfig,
   // Using a @type comment before a parenthesized expression like this is a
-  // type cast (like doing "as …" in TypeScript).
+  // type cast (like doing "as …" in TypeScript). Unsure why these types are
+  // incompatible though.
   ...(/** @type {import('eslint').Linter.Config[]} */ (typescriptConfig)),
 ]
 
