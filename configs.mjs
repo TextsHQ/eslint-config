@@ -1,9 +1,9 @@
 // @ts-check
 
-import basicConfig from './basic.mjs'
-import stylisticConfig from './style.mjs'
-import typescriptConfig from './typescript.mjs'
-import reactConfig from './react.mjs'
+import basicConfig from './lib/basic.mjs'
+import stylisticConfig from './lib/style.mjs'
+import typescriptConfig from './lib/typescript.mjs'
+import reactConfig from './lib/react.mjs'
 
 /** @type {import('eslint').Linter.Config[]} */
 const base = [

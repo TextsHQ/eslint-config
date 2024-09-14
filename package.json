@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": "./configs.mjs",
-    "./style": "./style.mjs"
+    "./style": "./lib/style.mjs"
   },
   "dependencies": {
     "@eslint/compat": "^1.1.1",
