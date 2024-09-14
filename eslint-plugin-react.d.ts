@@ -1,12 +1,14 @@
-// This is incomplete.
+// Non-exhaustive.
 declare module 'eslint-plugin-react' {
   import type { ESLint, Linter } from 'eslint'
 
   const plugin: ESLint.Plugin & {
-    flat: {
-      all: Linter.Config
-      recommended: Linter.Config
-      'jsx-runtime': Linter.Config
+    configs: {
+      flat: {
+        all: Linter.Config
+        recommended: Linter.Config
+        'jsx-runtime': Linter.Config
+      }
     }
   }
 
